@@ -1,0 +1,58 @@
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+}
+
+h2,
+h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    margin: 2em;
+}
+
+body,
+input[text],
+button,
+a {
+    color: #888;
+    font-family: Cambria, Georgia;
+}
+
+a,
+button.clear {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: rgb(190, 183, 183);
+    margin: .5em;
+    padding: 10px;
+    height: 30px;
+    width: 50px;
+    border-radius: 4px;
+    color: black;
+}
+
+a.selected:hover,
+{
+    background-color: #BBD8DC !important;
+    color: rgb(161, 156, 156);
+}
+
+a:hover,
+{
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+}
+
+
+/* everywhere else */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
